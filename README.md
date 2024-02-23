@@ -32,6 +32,8 @@ desarrollado como el proceso seguido.
 
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
+El dia 22 de febrero invertimos 1 hora en comprender lo que se pedia y comenzar con la actividad.
+El dia 23 de febrero invertimos 1 hora en preparar los archivos y avanzar con los tests.
 
 
 ### 4. ¿Cuál es el número de fallos encontrados en el código?
