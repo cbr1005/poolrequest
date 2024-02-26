@@ -55,7 +55,16 @@ public class ReusablePoolTest {
 	 */
 	@Test
 	public void testAcquireReusable() {
-		
+		try {
+			Reusable r = null;
+			do {
+				r = pool.acquireReusable();
+				assertNotNull(r);
+				assertTrue(r instanceof Reusable);
+			} while (r != null);
+		} catch (NotFreeInstanceException e) {
+			System.err.println(e.getMessage());
+		}
 	}
 
 	/**
